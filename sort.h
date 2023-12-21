@@ -40,4 +40,12 @@ void print_array(const int *array, size_t size);
  */
 void bubble_sort(int *array, size_t size);
 
+/**
+ * insertion_sort_list - function that sorts a doubly
+ * linked list of integers in ascending order
+ *
+ * @list: listint_t**
+ */
+void insertion_sort_list(listint_t **list);
+
 #endif /* SORT_H */
