@@ -48,4 +48,21 @@ void bubble_sort(int *array, size_t size);
  */
 void insertion_sort_list(listint_t **list);
 
+/**
+ * selection_sort - function that sorts an array of integers in ascending order using the Selection sort algorithm
+ *
+ * @array: int*
+ * @size: size_t
+ */
+void selection_sort(int *array, size_t size);
+
+/**
+ * quick_sort - function that sorts an array of integers in ascending order
+ * using the Quick sort algorithm
+ *
+ * @array: int*
+ * @size: size_t
+ */
+void quick_sort(int *array, size_t size);
+
 #endif /* SORT_H */
